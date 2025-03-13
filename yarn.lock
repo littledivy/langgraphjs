@@ -1969,6 +1969,7 @@ __metadata:
     uuid: ^10.0.0
     zod: ^3.23.8
     zod-to-json-schema: ^3.22.4
+    zone.js: ^0.15.0
   peerDependencies:
     "@langchain/core": ">=0.2.36 <0.3.0 || >=0.3.40 < 0.4.0"
   languageName: unknown
@@ -13141,5 +13142,12 @@ __metadata:
   version: 3.23.8
   resolution: "zod@npm:3.23.8"
   checksum: 15949ff82118f59c893dacd9d3c766d02b6fa2e71cf474d5aa888570c469dbf5446ac5ad562bb035bf7ac9650da94f290655c194f4a6de3e766f43febd432c5c
+  languageName: node
+  linkType: hard
+
+"zone.js@npm:^0.15.0":
+  version: 0.15.0
+  resolution: "zone.js@npm:0.15.0"
+  checksum: 8cb8f99c0aa18dfc684b891576d9400385da94a342128ee998accf23cbd21d5e7d9e7a76e623872eb7a300a6d388c181dde575f39d2d9bf46d0af2310024e605
   languageName: node
   linkType: hard

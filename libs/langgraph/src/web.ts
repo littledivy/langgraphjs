@@ -83,3 +83,12 @@ export {
 
 export { MessagesAnnotation } from "./graph/messages_annotation.js";
 export { type LangGraphRunnableConfig } from "./pregel/runnable_types.js";
+
+import { initializeZoneLocalStorageSingleton } from "./setup/zone_local_storage.js";
+
+const isWebOrReactNative =
+  typeof window !== "undefined" ||
+  (typeof navigator !== "undefined" && navigator.product === "ReactNative");
+if (isWebOrReactNative) {
+  initializeZoneLocalStorageSingleton();
+}
